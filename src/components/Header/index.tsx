@@ -14,8 +14,6 @@ const Header = (): JSX.Element => {
       t.id === product.id
     ))
   )
-  console.log(uniqueArray);
-
   const cartSize = uniqueArray.length;
 
   return (
